@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { NavBar } from "./components/navbar";
+import NavBar from "./components/navbar";
 import Link from "next/link";
 import {
   Facebook,
@@ -166,13 +166,13 @@ export default function RootLayout({
               <Link className="flex gap-2 items-center" href="/">
                 Incio Produtos <MoveUpRight size={18} />
               </Link>
-              <Link className="flex gap-2 items-center" href="/products">
+              <Link className="flex gap-2 items-center" href="/">
                 Produtos <MoveUpRight size={18} />{" "}
               </Link>
-              <Link className="flex gap-2 items-center" href="/services">
+              <Link className="flex gap-2 items-center" href="/">
                 Serviços Produtos <MoveUpRight size={18} />
               </Link>
-              <Link className="flex gap-2 items-center" href="/about-us">
+              <Link className="flex gap-2 items-center" href="/">
                 Sobre Nós Produtos <MoveUpRight size={18} />
               </Link>
             </section>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 
-export function NavBar() {
+export default function NavBar() {
   const navRef = useRef(null);
 
   useLayoutEffect(() => {

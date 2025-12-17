@@ -1,4 +1,4 @@
-export function PreLoader() {
+export default function PreLoader() {
   return (
     <main>
       <h2>Preloader</h2>
