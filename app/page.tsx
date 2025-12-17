@@ -10,7 +10,7 @@ export default function Home() {
       <article className="panel">
         <section
           id="hero"
-          className="flex items-center justify-between h-screen w-full md:w-screen px-6 md:px-20 pt-44 md:pt-auto"
+          className="flex items-center justify-between h-screen w-full md:w-screen px-6 md:px-20 pt-44 md:pt-0"
         >
           <div className="flex flex-col gap-5">
             <h3 className="font-bold text-lg">
@@ -135,7 +135,7 @@ export default function Home() {
               src={"/images/diferential.jpg"}
               width={700}
               height={700}
-              className="rounded-xl object-cover w-full  md:w-[650px] md:h-[480px] -rotate-2 mt-5 transform hover:scale-105 transition-all ease-in hover:shadow-2xl duration-100 hover:cursor-pointer hover:rotate-0"
+              className="rounded-xl object-cover w-full  md:w-[650px] md:h-[480px]  mt-5"
               alt="image"
             />
           </article>
