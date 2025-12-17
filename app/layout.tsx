@@ -33,10 +33,10 @@ export default function RootLayout({
         <main className="w-full ">{children}</main>
 
         <footer className="px-5 md:px-20 w-full pb-16 *:text-center">
-          <article className="rounded-2xl bg-linear-to-r from-blue-400  via-blue-600 to-blue-900  md:min-h-14 *:text-white px-5 md:px-32 py-10">
+          <article className="rounded-2xl bg-gradient-to-r from-blue-400  via-blue-600 to-blue-900  md:min-h-14 *:text-white px-5 md:px-32 py-10">
             <section className="flex flex-col md:flex-row md:justify-between items-center justify-center gap-3">
               <div className="flex flex-col gap-1 md:items-start items-center">
-                <Link href={"#"} className="font-bold text-xl md:text-3xl">
+                <Link href={"/"} className="font-bold text-xl md:text-3xl">
                   NUR<span className="text-blue-900">CODE</span>
                 </Link>
                 <span className="text-sm font-medium text-neutral-100">

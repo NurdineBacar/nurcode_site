@@ -43,7 +43,7 @@ export function NavBar() {
         >
           <li>
             <Link
-              href="#"
+              href="/"
               className="px-4 py-2 rounded-full hover:bg-blue-700  text-sm font-medium"
             >
               Início
@@ -51,7 +51,7 @@ export function NavBar() {
           </li>
           <li>
             <Link
-              href="#products"
+              href="/"
               className="px-4 py-2 rounded-full hover:bg-blue-700  text-sm font-medium"
             >
               Produtos
@@ -59,7 +59,7 @@ export function NavBar() {
           </li>
           <li>
             <Link
-              href="#what-we-do"
+              href="/"
               className="px-4 py-2 rounded-full hover:bg-blue-700  text-sm font-medium"
             >
               Serviços
@@ -67,7 +67,7 @@ export function NavBar() {
           </li>
           <li>
             <Link
-              href="#differential"
+              href="/"
               className="px-4 py-2 rounded-full hover:bg-blue-700  text-sm font-medium"
             >
               Sobre Nós

@@ -4,7 +4,7 @@ import { differentials, whatWeDoItems } from "./consts/home";
 import { products } from "./consts/products";
 import { MoveUpRight } from "lucide-react";
 
-const Home = () => {
+export default function Home() {
   return (
     <main className="overflow-x-hidden">
       <article className="panel">
@@ -155,7 +155,7 @@ const Home = () => {
           <article className="min-w-max flex items-center gap-8 mt-12 overflow-x-auto scrollbar-hide p-3">
             {products.map((item, index) => (
               <div
-                className="relative shadow-md md:shadow-lg border border-neutral-200 rounded-3xl px-8 pt-10 h-120 w-86 overflow-hidden   hover:cursor-pointer  hover:shadow-blue-600/35 hover:translate-x-2 hover:-translate-y-5 transition-all ease-in duration-150 "
+                className="relative shadow-md md:shadow-lg border border-neutral-200 rounded-3xl px-8 pt-10 h-[480px] w-[344px] overflow-hidden   hover:cursor-pointer  hover:shadow-blue-600 hover:translate-x-2 hover:-translate-y-5 transition-all ease-in duration-150 "
                 key={index}
               >
                 <div className="flex justify-between items-center">
@@ -190,16 +190,14 @@ const Home = () => {
           id="final-call"
           className="md:w-screen md:h-screen px-5 md:px-20 flex flex-col items-center justify-center gap-16 py-36 md:py-auto"
         >
-          <h2 className="text-4xl md:text-8xl text-center font-extrabold bg-linear-to-r from-blue-700  via-purple-900 to-blue-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-8xl text-center font-extrabold bg-gradient-to-r from-blue-700  via-purple-900 to-blue-400 bg-clip-text text-transparent">
             Tem uma ideia ou procura uma equipe para construir um produto?
           </h2>
-          <p className="text-lg md:text-2xl rounded-full px-5 py-2 bg-linear-to-br from-blue-900 via-blue-500 to-blue-400 text-white font-semibold round">
+          <p className="text-lg md:text-2xl rounded-full px-5 py-2 bg-gradient-to-br from-blue-900 via-blue-500 to-blue-400 text-white font-semibold round">
             Vamos conversar
           </p>
         </section>
       </article>
     </main>
   );
-};
-
-export default Home;
+}
