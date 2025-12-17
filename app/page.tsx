@@ -149,7 +149,7 @@ export default function Home() {
             Produtos em Destaque
           </h2>
           <p className="text-lg md:text-xl text-blue-400 font-semibold text-center">
-            Conheça alguns dos produtos e MVPs que estamos a desenvolver.
+            Caaaaaaonheça alguns dos produtos e MVPs que estamos a desenvolver.
           </p>
 
           <article className="min-w-max flex items-center gap-8 mt-12 overflow-x-auto scrollbar-hide p-3">
