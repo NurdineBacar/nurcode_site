@@ -1,7 +1,6 @@
-export default function Contactus() {
-  return (
-    <main>
-      <h2>Contacte-nos</h2>
-    </main>
-  );
+import { redirect } from "next/navigation";
+
+export default function Page() {
+  // Redirect to the correct app route
+  redirect("/contact-us");
 }
